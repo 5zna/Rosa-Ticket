@@ -1,0 +1,143 @@
+{
+  "guildId": "1522215292141441096",
+  "panelChannelId": "1522257458536513677",
+  "ticketChannelId": "1522257458536513677",
+  "supportRoles": [
+    "1522984507270103060",
+    "1523351931148570755",
+    "1522215335271464971",
+    "1522223515518898246",
+    "1522225642685468702",
+    "1522226173739012177",
+    "1522228755299303594",
+    "1522228615654146068"
+  ],
+  "mentionRoles": [
+    "1522225642685468702",
+    "1522226173739012177",
+    "1522228755299303594",
+    "1522228615654146068"
+  ],
+  "managerRoles": [
+    "1522984507270103060",
+    "1523351931148570755",
+    "1522215335271464971"
+  ],
+  "panelMessageId": "1524362638073790604",
+  "bannerUrl": "https://i.ibb.co/NXkkHrY/Rosa-Server-Info-1.png",
+  "emojis": {
+    "panelTitle": "🎫"
+  },
+  "panel": {
+    "placeholder": "اختر القسم الذى تريده",
+    "inquiry": {
+      "label": "Inquiry",
+      "description": "للاستفسارات والشكاوى",
+      "emoji": "<:Inquiry:1523375856204906546>",
+      "supportRoles": [
+        "1522228615654146068",
+        "1522228755299303594",
+        "1522226173739012177"
+      ],
+      "managerRoles": [
+        "1522215335271464971",
+        "1522223515518898246",
+        "1522225642685468702"
+      ],
+      "mentionRoles": [
+        "1522228615654146068",
+        "1522228755299303594",
+        "1522226173739012177"
+      ],
+      "modal": {
+        "title": "تفاصيل الاستفسار",
+        "label": "استفسارك؟",
+        "placeholder": "سؤال او استفسار \n اذا كان هناك شكوى اكتب الايدى وارسال صورة عند فتح التذكرة",
+        "required": true
+      }
+    },
+    "staffApplication": {
+      "label": "Staff Application",
+      "description": "تقديم الادارة",
+      "emoji": "<:StaffApp:1523375852061196389>",
+      "supportRoles": [
+        "1522215335271464971"
+      ],
+      "managerRoles": [
+        "1522215335271464971"
+      ],
+      "mentionRoles": [
+        "1522215335271464971"
+      ],
+      "modal": {
+        "title": "Staff Application",
+        "fields": [
+          {
+            "customId": "name",
+            "label": "الاسم",
+            "style": "short",
+            "required": true
+          },
+          {
+            "customId": "age",
+            "label": "العمر",
+            "style": "short",
+            "required": true
+          },
+          {
+            "customId": "experience",
+            "label": "خبراتك",
+            "style": "paragraph",
+            "required": true
+          },
+          {
+            "customId": "why",
+            "label": "ليه عاوز تكون ادارة معانا",
+            "style": "paragraph",
+            "required": true
+          },
+          {
+            "customId": "hours",
+            "label": "كم ساعة تتفاعل باليوم",
+            "style": "short",
+            "required": true
+          }
+        ]
+      }
+    }
+  },
+  "buttons": {
+    "claim": {
+      "label": "Claim",
+      "emoji": "<:Claim:1523375843668136228>"
+    },
+    "close": {
+      "label": "Close",
+      "emoji": "<:Close:1523375855005470781>"
+    },
+    "delete": {
+      "label": "Delete",
+      "emoji": "<:Delete:1523375845446647958>"
+    },
+    "add": {
+      "label": "Add User",
+      "emoji": "<:AddUser:1523375847023837215>"
+    },
+    "blacklist": {
+      "label": "Blacklist",
+      "emoji": "<:Blacklist:1523375848852426992>"
+    },
+    "reopen": {
+      "label": "Open",
+      "emoji": "<:Open:1523375853680066680>"
+    },
+    "unclaim": {
+      "label": "Unclaim",
+      "emoji": "<:Unclaim:1523375850395795606>"
+    }
+  },
+  "menus": {
+    "Inquiry": true,
+    "Staff Application": true
+  }
+}
